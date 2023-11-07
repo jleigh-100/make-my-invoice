@@ -1,0 +1,4 @@
+/node_modules
+server/secrets
+client/public/bundle.*
+client/public/index.html
