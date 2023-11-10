@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server/index.js",
-    "build": "nodemon build server/index.js"
+    "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.5.3"
+    "html-webpack-plugin": "^5.5.3",
+    "webpack-cli": "^5.1.4"
   }
 }
