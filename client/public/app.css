@@ -1,0 +1,58 @@
+html {
+    background: lightgrey;
+  }
+  
+  .App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins', cursive;
+  }
+  
+  .importer {
+    width: 400px;
+    background-color: rgb(98, 182, 221);
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgb(50, 50, 221) 3px 3px;
+    transition: box-shadow 0.5s;
+  }
+  .importer:hover {
+    box-shadow: rgb(50, 50, 221) 0 0;
+    transition: box-shadow 0.5s;
+  }
+  
+  .results-table {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px black solid;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin-top: 0;
+  
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  .details {
+    padding: 10px 50px;
+  }
+  
+  .input {
+    display: flex;
+    column-gap: 50px;
+  }
+  
+  .totals {
+    display: flex;
+    justify-content: space-between;
+  }
