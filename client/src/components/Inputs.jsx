@@ -84,8 +84,8 @@ const Inputs = ({ invoiceDetails, setInvoiceDetails }) => {
         {/* show all bank details */}
         {bankDetailsMap.map(({ className, label, key, type }) => {
           const handleChange = (e) => {
-            // if the key is rate, parse the value to an integer
-            const newValue = key === "rate" ? parseInt(e.target.value) : e.target.value;
+            // if the key is rate, parse the value to a float
+            const newValue = key === "rate" ? parseFloat(e.target.value) : e.target.value;
             setInvoiceDetails({ ...invoiceDetails, [type]: { ...invoiceDetails[type], [key]: newValue } });
           }
           return (
