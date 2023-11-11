@@ -6,12 +6,12 @@ module.exports = {
     entry: ['./client/src/index.jsx'],
     output: {
         path: __dirname,
-        filename: './bundle.js',
+        filename: './public/bundle.js',
     },
     devtool: 'source-map',
     devServer: {
         hot: true,
-        contentBase: '.',
+        contentBase: './public',
         historyApiFallback: true
     },
     module: {
