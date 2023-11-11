@@ -5,8 +5,8 @@ module.exports = {
     mode: 'development',
     entry: ['./client/src/index.jsx'],
     output: {
-        path: __dirname,
-        filename: 'public/bundle.js',
+        path: path.join(__dirname, 'public'),
+        filename: 'bundle.js',
     },
     devtool: 'source-map',
     devServer: {
