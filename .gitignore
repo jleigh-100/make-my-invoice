@@ -1,5 +1,4 @@
 /node_modules
 server/secrets
-client/public/bundle.*
-client/public/index.html
-bundle.*
+public/bundle.*
+public/index.html

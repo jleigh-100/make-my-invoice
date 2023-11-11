@@ -6,7 +6,7 @@ module.exports = {
     entry: ['./client/src/index.jsx'],
     output: {
         path: __dirname,
-        filename: './public/bundle.js',
+        filename: 'public/bundle.js',
     },
     devtool: 'source-map',
     devServer: {
@@ -41,7 +41,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: path.join(__dirname, './client/index.ejs'),
-            filename: path.join(__dirname, './client/public/index.html')
+            filename: path.join(__dirname, './public/index.html')
         })
     ],
     stats: { children: true }
