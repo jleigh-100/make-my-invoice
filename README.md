@@ -6,6 +6,10 @@ Customers for MakeMyInvoice would typically be self-employed workers who charge 
 
 An example file is provided to download to test the functionality out!
 
+## Live instance
+
+make-my-invoice.vercel.app
+
 ## Setup for local deployment
 
 1. Clone this repo: `git clone https://github.com/jleigh-100/make-my-invoice.git`.
