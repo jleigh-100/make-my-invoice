@@ -49,7 +49,7 @@ const FileImporter = ({ setClients }) => {
   return (
     <div {...getRootProps()} className="importer">
       <input {...getInputProps()} />
-      <p>Click here and upload the exported CSV file from Toggl</p>
+      <p>Click or drag a file here to upload an exported CSV file from Toggl</p>
     </div>
   )
 }
