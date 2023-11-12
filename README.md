@@ -8,7 +8,7 @@ An example file is provided to download to test the functionality out!
 
 ## Live instance
 
-(make-my-invoice.vercel.app)[https://make-my-invoice.vercel.app]
+[make-my-invoice.vercel.app](https://make-my-invoice.vercel.app)
 
 ## Setup for local deployment
 
