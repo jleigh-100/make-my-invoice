@@ -3,6 +3,7 @@ import saveAs from "file-saver";
 import { timeConverter } from "./utils";
 
 const generateFile = (data, totals, invoiceDetails) => {
+  console.log(invoiceDetails)
   const tableBorders = {
     top: {
       style: docx.BorderStyle.SINGLE,
@@ -35,7 +36,7 @@ const generateFile = (data, totals, invoiceDetails) => {
             alignment: docx.AlignmentType.END,
             children: [
               new docx.TextRun({
-                text: "Mr Jamie Leigh",
+                text: `${invoiceDetails.bank.name}`,
                 size: 24,
               }),
               new docx.TextRun({
